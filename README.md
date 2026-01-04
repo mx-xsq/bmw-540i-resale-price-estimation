@@ -1,4 +1,4 @@
-# BMW 540i Resale Price Prediction
+# BMW 540i Resale Price Estimation
 
 This project predicts the resale price of BMW 540i vehicles using historical listing data and linear regression.
 
