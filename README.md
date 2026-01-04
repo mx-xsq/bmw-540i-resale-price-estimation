@@ -24,3 +24,17 @@ The trained model reduced prediction error by approximately 45%, demonstrating m
 - scikit-learn
 - NumPy
 - Selenium
+- matplotlib
+
+## Setup
+Install required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Data Scraping Notes
+This project uses Selenium for web scraping.  
+A compatible WebDriver (e.g., ChromeDriver) must be installed separately and added to the system PATH, or its location must be specified in the scraping script.
+
+Due to website structure changes and scraping restrictions, the scraping script may require adjustments to run successfully.

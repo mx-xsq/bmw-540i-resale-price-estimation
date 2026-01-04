@@ -25,7 +25,7 @@ def clean_number(text):
     return int("".join(re.findall(r"\d+", text)))
 
 # -----------------------------
-# 1. Load raw scraped data
+# Load raw scraped data
 # -----------------------------
 df = pd.read_csv("bmw_540i.csv")
 
@@ -53,14 +53,14 @@ CURRENT_YEAR = datetime.now().year
 df["car_age"] = CURRENT_YEAR - df["Year"]
 
 # -----------------------------
-# 9. Final check
+# Final check
 # -----------------------------
 print("Cleaned shape:", df.shape)
 print(df.describe())
 
 
 # -----------------------------
-# 10. Save cleaned dataset
+# Save cleaned dataset
 # -----------------------------
 df.to_csv("bmw_540i_cleaned.csv", index=False)
 
