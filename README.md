@@ -1,6 +1,6 @@
 # BMW 540i Resale Price Estimation
 
-This project predicts the resale price of BMW 540i vehicles using historical listing data and linear regression.
+This project predicts the resale price of Last-gen BMW 540i vehicles (with M Sport) using historical listing data and linear regression.
 
 ## Project Files
 - `bmw_scrape.py`: Scrapes BMW 540i listings
